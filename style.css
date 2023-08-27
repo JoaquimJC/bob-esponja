@@ -1,0 +1,79 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+body{
+    text-align: center;
+    background-image: url("https://images.template.net/73802/Free-Spongebob-Floral-Background-Mobile-2.jpg");
+    background-size: cover;
+}
+
+.title{
+    font-family: 'Handjet', cursive;
+    font-size: 100px;
+    color: yellow;
+    text-shadow: 5px 5px rgb(50, 103, 15);
+    margin:2%;
+    
+}
+
+iframe{
+    border: 8px ridge rgb(221, 190, 14);
+    border-radius: 0px;
+}
+
+li{
+    list-style: none;
+    padding:0.8%;
+    cursor: pointer;
+
+}
+
+li a{
+    color:rgb(9, 198, 240);
+    text-decoration: none;
+}
+
+
+.menu{
+    background-color: rgb(39, 39, 37);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin:0;
+    font-size:30px;
+    font-family: 'Anton', sans-serif;
+    color:rgb(9, 198, 240);
+}
+.perfil{
+    width: 40%;
+    border-radius: 30px;
+    margin: 5%;
+}
+
+.box{
+    border: 2px solid rgba(80, 78, 78, 0);
+    background-color: rgba(0, 208, 255, 0.6);
+    width: 90%;
+    margin: 5% auto;
+    border-radius: 30px;
+}
+
+.nome{
+    color: yellow;
+    font-size:xx-large;
+    background-color:rgb(27, 220, 139)
+}
+.sobre{
+    color:aqua;
+    font-size: larger;
+    background-color: rgb(0, 81, 255);
+}
+
+
+.galeria{
+    width: 70%;
+}
